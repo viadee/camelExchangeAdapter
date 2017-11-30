@@ -4,6 +4,10 @@ This Camel Component allows access to the tasks of a single user stored in a Mic
 The tasks may be received from the server or write back with updated status. The tasks are returned in JSON Format.
 The Component is a producer component only, i.e. it is not possible to use it in an ".from" statement!
 
+This is an instructional piece of software meant as a proof-of-concept (with limited maintenance). 
+Feel free to use it or extend it. We are looking forward to your feedback.
+
+### Installation
 Maven users need to add the following dependency to their `pom.xml` for this component:
 
 ```
