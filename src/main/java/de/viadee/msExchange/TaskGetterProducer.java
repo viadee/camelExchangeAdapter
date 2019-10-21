@@ -128,9 +128,8 @@ public class TaskGetterProducer extends ExchangeProducer {
     private String createURL(String id) throws Exception {
         String owaId = getOwaId(id, exService);
         StringBuilder sb = new StringBuilder();
-        // TODO insert URL to OWA. e.g. https://example.com/owa/?ae=Item&a=Open&t=IPM.Task
         sb.append("https://insert-URL.com/owa/?ae=Item&a=Open&t=IPM.Task");
-        sb.append("id=").append(owaId);
+        sb.append("&id=").append(owaId);
         return sb.toString();
     }
 
