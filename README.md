@@ -36,7 +36,7 @@ Example:
 ```
       StringBuilder sb = new StringBuilder();
         sb.append("https://insert-URL.com/owa/?ae=Item&a=Open&t=IPM.Task"); 
-        sb.append("id=").append(owaId);
+        sb.append("&id=").append(owaId);
 ```
 
 ### Modify Exchange Server Version
